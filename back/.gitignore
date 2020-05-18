@@ -5,6 +5,12 @@ back/build/
 !**back/src/main/**
 !**back/src/test/**
 
+### Need to be placed ###
+client.json
+StoredCredential
+service.json
+service.p12
+
 ### STS ###
 .apt_generated
 .classpath
