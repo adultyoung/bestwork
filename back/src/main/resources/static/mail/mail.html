@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sending Email with Thymeleaf HTML Template Example</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+    <!-- use the font -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-size: 48px;
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0;">
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="/* border-collapse: collapse; */">
+    <tbody>
+    <tr>
+        <td align="center" bgcolor="#78ab46"
+            style="padding: 40px 0 30px 0;display: block;background: transparent;height: 111px;">
+            <img src="cid:logo-bw.png"
+                 style="display: block;position: relative;z-index: 1;top: 83px;/* left: 1px; *//* margin: auto !important; *//* margin: unset !important; */width: 45%;">
+            <img src="cid:header_background.jpg"
+                 style="display: block;position: absolute;width: 600px;/* height: 129px; */object-fit: none;height: 111px;">
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#eaeaea"
+            style="padding: 40px 30px 40px 30px;background-image: url('cid:index_logo_transition.png');background-repeat: no-repeat;background-position-x: 58px;background-size: 520px;/* background-blend-mode: color-burn; */background-color: transparent;">
+            <p style="
+    text-align: center;
+">Вас приветствует команда <br> BestWork</p>
+            <p>Благодарим за регистрацию на сайте. Рекомендуем сохранить данное сообщение</p>
+            <p>Ваши данные для входа</p>
+            <p style="
+">Логин: <b> ${username}</b> <br>
+                Пароль: <b>${password}</b></p>
+            <p>Пароль надежно сохранен в нашей базе данных. <br>
+                Если вы утеряете свой пароль, то всегда сможете восстановить его, используя для этого адрес электронной
+                почты, связанный с вашей учетной записью</p>
+
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#777777" style="padding: 30px 30px 30px 30px;">
+
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#777777" style="padding: 30px 30px 30px 30px;">
+            <button href="http://localhost:8091">Перейти на сайт</button>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

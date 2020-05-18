@@ -1,0 +1,23 @@
+.icon-phone:before {
+    content: '\e8f4';
+}
+
+.icon-mail-line:before {
+    content: '\e8d1';
+}
+
+.header_contacts a {
+    float: left;
+    color: #00bae1;
+}
+
+.header_button_link {
+    padding: 15px 0;
+}
+
+.header_buttons {
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Roboto, Arial, Tahoma, sans-serif;
+}
